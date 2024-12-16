@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(135deg,black, #342828,black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 20vh;
+    width:40vw;
+    background: linear-gradient(orange, #FF4D00);
+    border-radius: 12px;
+}
+
+.heading{
+    width: 9rem;
+    height: 6vh;
+    margin-left: 13vw;
+    font-size: 1.5rem;
+}
+
+input{
+    border: none;
+    outline: none;
+    margin-left: 12vh;
+    height: 5vh;
+    width: 22vw;
+    background: #ff783c;
+    border-radius: 12px;
+}
+
+.placeholder{
+      background-color: #FF4D00;
+}
+
+.enter{
+    border: none;
+    outline: none;
+    height: 5vh;
+    width: 5vw;
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+}
+
+#video{
+    display: none; /* Hidden by default */
+    position: fixed;
+    
+    width: 60vw;
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.8); /* Dim background */
+    z-index: 1000; /* On top of everything */
+    justify-content: center;
+    align-items: center;
+}
