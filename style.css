@@ -14,22 +14,22 @@ main{
 
 .container{
     height: 20vh;
-    width:40vw;
+    min-width:35vw;
     background: linear-gradient(orange, #FF4D00);
     border-radius: 12px;
 }
 
 .heading{
-    width: 9rem;
+    width: 26rem;
     height: 6vh;
-    margin-left: 13vw;
+    margin-left: 3vw;
     font-size: 1.5rem;
 }
 
 input{
     border: none;
     outline: none;
-    margin-left: 12vh;
+    margin-left: 8vh;
     height: 5vh;
     width: 22vw;
     background: #ff783c;
