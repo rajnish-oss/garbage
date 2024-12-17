@@ -32,9 +32,9 @@ entBtn.addEventListener("keydown", (e) => {
             alert("enter your age")
         }else if(age <= 18){
             video1.style.display = "block";
-        }else if(age > 18 && age <= 25){
+        }else if(age > 18 && age <= 30){
             video2.style.display = "block";
-        }else if(age >25 && age < 100){
+        }else if(age >30 && age < 100){
             video3.style.display = "block";
         }else{
             video4.style.display = "block";
